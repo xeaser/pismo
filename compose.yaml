@@ -1,0 +1,7 @@
+services:
+  api:
+    build: .
+    image: xeaser/pismo:latest
+    container_name: pismo
+    ports:
+      - "8080:8080"

@@ -23,3 +23,37 @@ go.work.sum
 
 # env file
 .env
+# VS Code specific files
+.vscode/
+*.code-workspace
+
+# Go specific files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.sum
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+
+# Debug files
+debug
+
+# Output of the go coverage tool
+*.coverprofile
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+main
+
+/tmp
+.air.toml
