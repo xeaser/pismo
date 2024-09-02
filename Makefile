@@ -9,9 +9,11 @@ lint:
 	golangci-lint run
 
 build:
+	go mod tidy
 	go build ./cmd/main.go
 
 run:
+	go mod tidy
 	env=local go run ./cmd/main.go
 
 test:
