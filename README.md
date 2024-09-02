@@ -50,6 +50,18 @@ env=local go run ./cmd/main.go
 make run
 ```
 ```
-docker compose up
+docker compose up -d
 ```
 This will start the server on the port specified in the configuration file.
+
+### Possible Improvements
+
+* Implementing authentication and authorization to secure the API.
+* Enhancing the error handling to include more detailed error messages and error codes.
+* Implementing a DB layer for better database management.
+* Adding sorting and pagination for get/list calls to manage large data sets.
+* Implementing common HTTP response codes for consistent API behavior.
+* Implementing middleware for global validations and role-based access control.
+* Using a better logger such as slog or zap logger for more detailed and efficient logging.
+* Using a better HTTP framework such as gorilla or chi for more advanced routing and middleware management.
+* Generating OpenAPI specification for the API to facilitate documentation and client generation.
